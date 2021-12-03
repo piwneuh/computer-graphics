@@ -171,7 +171,7 @@ namespace AssimpSample
         /// </summary>
         public void Initialize(OpenGL gl)
         {
-            gl.ClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+            gl.ClearColor(0.0f, 0.0f, 0.4f, 1.0f);
             gl.Color(1f, 0f, 0f);
             // Model sencenja na flat (konstantno)
             gl.ShadeModel(OpenGL.GL_FLAT);
@@ -390,16 +390,16 @@ namespace AssimpSample
             gl.Viewport(m_width / 2, m_height, m_width, m_height);
 
             gl.DrawText3D("Tahoma", 10, 0, 0, "");
-            gl.DrawText(WindowWidth - 165, WindowHeight - 70, 0.0f, 1.0f, 0.0f, "Tahoma", 10, "Predmet: Racunarska grafika");
-            gl.DrawText(WindowWidth - 165, WindowHeight - 72, 0.0f, 1.0f, 0.0f, "Tahoma", 10, "___________________________");
-            gl.DrawText(WindowWidth - 165, WindowHeight - 85, 0.0f, 1.0f, 0.0f, "Tahoma", 10, "Sk.god: 2020/21.");
-            gl.DrawText(WindowWidth - 165, WindowHeight - 87, 0.0f, 1.0f, 0.0f, "Tahoma", 10, "________________");
-            gl.DrawText(WindowWidth - 165, WindowHeight - 100, 0.0f, 1.0f, 0.0f, "Tahoma", 10, "Ime: Filip");
-            gl.DrawText(WindowWidth - 165, WindowHeight - 102, 0.0f, 1.0f, 0.0f, "Tahoma", 10, "___________");
-            gl.DrawText(WindowWidth - 165, WindowHeight - 115, 0.0f, 1.0f, 0.0f, "Tahoma", 10, "Prezime: Pinjuh");
-            gl.DrawText(WindowWidth - 165, WindowHeight - 117, 0.0f, 1.0f, 0.0f, "Tahoma", 10, "________________");
-            gl.DrawText(WindowWidth - 165, WindowHeight - 130, 0.0f, 1.0f, 0.0f, "Tahoma", 10, "Sifra zad: 17.1");
-            gl.DrawText(WindowWidth - 165, WindowHeight - 132, 0.0f, 1.0f, 0.0f, "Tahoma", 10, "________________");
+            gl.DrawText(WindowWidth - 165, WindowHeight - 70, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "Predmet: Racunarska grafika");
+            gl.DrawText(WindowWidth - 165, WindowHeight - 72, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "___________________________");
+            gl.DrawText(WindowWidth - 150, WindowHeight - 85, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "Sk.god: 2020/21.");
+            gl.DrawText(WindowWidth - 150, WindowHeight - 87, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "________________");
+            gl.DrawText(WindowWidth - 150, WindowHeight - 100, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "Ime: Filip");
+            gl.DrawText(WindowWidth - 150, WindowHeight - 102, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "___________");
+            gl.DrawText(WindowWidth - 150, WindowHeight - 115, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "Prezime: Pinjuh");
+            gl.DrawText(WindowWidth - 150, WindowHeight - 117, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "________________");
+            gl.DrawText(WindowWidth - 150, WindowHeight - 130, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "Sifra zad: 17.1");
+            gl.DrawText(WindowWidth - 150, WindowHeight - 132, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "________________");
 
             gl.PopMatrix();
         }
