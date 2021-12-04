@@ -392,7 +392,7 @@ namespace AssimpSample
             gl.DrawText3D("Tahoma", 10, 0, 0, "");
             gl.DrawText(WindowWidth - 165, WindowHeight - 70, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "Predmet: Racunarska grafika");
             gl.DrawText(WindowWidth - 165, WindowHeight - 72, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "___________________________");
-            gl.DrawText(WindowWidth - 150, WindowHeight - 85, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "Sk.god: 2020/21.");
+            gl.DrawText(WindowWidth - 150, WindowHeight - 85, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "Sk.god: 2021/22.");
             gl.DrawText(WindowWidth - 150, WindowHeight - 87, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "________________");
             gl.DrawText(WindowWidth - 150, WindowHeight - 100, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "Ime: Filip");
             gl.DrawText(WindowWidth - 150, WindowHeight - 102, 0.0f, 0.0f, 0.0f, "Tahoma", 10, "___________");
