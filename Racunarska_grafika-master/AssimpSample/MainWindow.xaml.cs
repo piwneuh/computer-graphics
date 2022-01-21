@@ -107,7 +107,7 @@ namespace AssimpSample
             }
             switch (e.Key)
             {
-                case Key.F4: this.Close(); break;
+                case Key.F2: this.Close(); break;
                 case Key.E : m_world.RotationX -= 5.0f; break;
                 case Key.D: m_world.RotationX += 5.0f; break;
                 case Key.S: m_world.RotationY -= 5.0f; break;
@@ -121,7 +121,7 @@ namespace AssimpSample
                     textBox2.IsEnabled = false;
                     isShooting = true;
                     break;
-                case Key.F2:
+                case Key.F4:
                     OpenFileDialog opfModel = new OpenFileDialog();
                     bool result = (bool) opfModel.ShowDialog();
                     if (result)
